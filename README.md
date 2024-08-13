@@ -1,48 +1,37 @@
-BMI Calculator
-=================
 
-The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.
+# BMI Calculator 📊
 
-Screenshots
------------
-![BMI Calculator Screens](screenshots/screens.png "BMI Calculator Screens")
+**A Comprehensive Body Mass Index (BMI) Calculator**
 
+## Overview
+The BMI Calculator is a user-friendly mobile application that enables users to calculate their Body Mass Index (BMI) and determine their weight status. The app also takes the user’s age into account to provide a more accurate assessment of their health status.
 
-BMI Range Table
------------
+## Features
+- **BMI Calculation:** Calculate your BMI by entering your weight, height, and age.
+- **Weight Status Categorization:** Automatically classifies your BMI into categories such as Severe Thinness, Moderate Thinness, Mild Thinness, Normal, Overweight, and Obesity.
+- **Age Consideration:** Provides more accurate BMI results by incorporating the user's age into the calculation.
+- **BMI Range Table:** Includes a reference table to help users understand the different BMI categories and their corresponding ranges.
 
-| Category          | BMI range - kg/m² | 
-| ----------------- |:-----------------:|
-| Severe Thinness   | <15               |
-| Moderate Thinness | 15 - 16           |
-| Mild Thinness     | 16 - 18.5         |
-| Normal            | 18.5 - 25         |
-| Overweight        | 25 - 30           |
-| Obese Classes     | >30               |
+## BMI Range Table
+| **Category**          | **BMI Range (kg/m²)** |
+|-----------------------|-----------------------|
+| Severe Thinness        | <15                   |
+| Moderate Thinness      | 15 - 16               |
+| Mild Thinness          | 16 - 18.5             |
+| Normal                 | 18.5 - 25             |
+| Overweight             | 25 - 30               |
+| Obese Classes          | >30                   |
 
+## How It Works
+1. **Input Your Details:** Users input their weight, height, and age.
+2. **Calculate Your BMI:** The app calculates the BMI instantly and displays the result.
+3. **View Your Weight Status:** The app categorizes your BMI and provides relevant information based on the calculated value.
 
+## Usage
+- **User-Friendly Interface:** The app's simple and intuitive design ensures easy navigation.
+- **Accurate Calculations:** The app’s BMI calculations take both weight and age into account, providing an accurate health assessment.
+- **Responsive Design:** The app is designed to function smoothly on various screen sizes, ensuring a consistent experience across devices.
 
-Library & Features
---------------
-
-* [View Binding][1] - provides the views to bind with the activity which is ongoing.
-* [Navigation][2] - Handle everything needed for in-app navigation.
-
-* [Animations & Transitions][3] - Move widgets and transition between screens.
-* [Fragment][4] - A basic unit of composable UI.
-
-* [Sharing][5] - uses Intents and their associated extras to allow users to share information quickly and easily, using their favorite apps.
-
-* [Splash Screen API][6] -  implemented a custom splash screen that displays correctly in Android 12 and higher.
-
-
-[1]: https://developer.android.com/topic/libraries/data-binding/
-[2]: https://developer.android.com/topic/libraries/architecture/navigation/
-[3]: https://developer.android.com/training/animation/
-[4]: https://developer.android.com/guide/components/fragments
-[5]: https://developer.android.com/training/sharing/send
-[6]: https://developer.android.com/guide/topics/ui/splash-screen/migrate
-
-Additional credits
---------------------
-* This App UI design inspiration is from [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator) Dribbbles account
+## Tech Stack
+- **Kotlin**
+- **XML**
